@@ -21,7 +21,7 @@ class Scraper
    end
 
 
-  def self.scrape_profile_info(profile_url)
+  def self.scrape_profile_page(profile_url)
       info = Nokogiri::HTML(open(profile_url))
       student = {}
 
